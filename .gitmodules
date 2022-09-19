@@ -1,0 +1,6 @@
+[submodule "GloryPath"]
+	path = GloryPath
+	url = https://github.com/jsueprez/GloryPath.git
+[submodule "template"]
+	path = template
+	url = https://github.com/jsueprez/template.git
