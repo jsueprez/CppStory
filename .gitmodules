@@ -4,3 +4,6 @@
 [submodule "template"]
 	path = template
 	url = https://github.com/jsueprez/template.git
+[submodule "Inheritance"]
+	path = Inheritance
+	url = https://github.com/jsueprez/Inheritance.git
