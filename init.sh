@@ -13,17 +13,15 @@ mkdir ${PROJECT_NAME} && cd ${PROJECT_NAME}
 ## Create readme file
 echo "$PROJECT_NAME" > README.md
 
-## Create folders
-#mkdir src 
-#mkdir src/ext && mkdir src/module && mkdir src/test
+## Create build folder
 mkdir build
 
 ## Copy template files
-#cp ../template/README.md && sed -i '' -e "s/# Template/$PROJECT_NAME/" README.md
 cp -r ../template/* .
 
 ##Change the name of the project. sed command expect an extension argument in OsX that's why the ''
 sed -i '' -e "s/GloryPath/$PROJECT_NAME/" CMakeLists.txt
+sed -i '' -e "s/# Template/$PROJECT_NAME/" README.md
 
 ## Init Repo
 git init -b master
