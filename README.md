@@ -1,4 +1,4 @@
-# Template
+# CppStory
 
 Provide an introductory paragraph, describing:
 
@@ -8,7 +8,7 @@ Provide an introductory paragraph, describing:
 
 ## Table of Contents
 
-- [Template](#template)
+- [CppStory](#cppstory)
   - [Table of Contents](#table-of-contents)
   - [About the Project](#about-the-project)
   - [Project Status](#project-status)
