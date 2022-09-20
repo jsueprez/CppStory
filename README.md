@@ -74,12 +74,6 @@ Examples should be included
 
 Include a link to your GitHub repository (you have no idea how people will find your code), and also a summary of how to clone.
 
-This project is [hosted on GitHub](https://github.com/embeddedartistry/embedded-resources). You can clone this project directly using this command:
-
-```
-git clone git@github.com:embeddedartistry/templates.git
-```
-
 ### Building
 
 Instructions for how to build your project
@@ -171,9 +165,3 @@ Also see the list of [contributors](https://github.com/your/project/contributors
 Provide proper credits, shout-outs, and honorable mentions here. Also provide links to relevant repositories, blog posts, or contributors worth mentioning.
 
 **[Back to top](#table-of-contents)**
-
-Related
-
-Your Project is Great, So Let’s Make Your README Great Too
-
-Get Others Involved in Your Project with a CONTRIBUTING Guide
