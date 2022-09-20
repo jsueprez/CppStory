@@ -19,6 +19,7 @@ mkdir src/ext && mkdir src/module && mkdir src/test
 mkdir build
 
 ## Copy template files
+cp ../template/README.md && sed -i '' -e "s/# Template/$PROJECT_NAME/" README.md
 cp ../template/CMakeLists.txt CMakeLists.txt
 cp ../template/main.cpp src/.
 cp ../template/src/module/dummyLib.cpp src/module/.
