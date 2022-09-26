@@ -10,3 +10,6 @@
 [submodule "Polymorphism"]
 	path = Polymorphism
 	url = https://github.com/jsueprez/Polymorphism.git
+[submodule "Arrays"]
+	path = Arrays
+	url = https://github.com/jsueprez/Arrays.git
