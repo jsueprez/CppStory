@@ -7,3 +7,6 @@
 [submodule "Inheritance"]
 	path = Inheritance
 	url = https://github.com/jsueprez/Inheritance.git
+[submodule "Polymorphism"]
+	path = Polymorphism
+	url = https://github.com/jsueprez/Polymorphism.git
