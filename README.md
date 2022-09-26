@@ -15,18 +15,13 @@ My story about C++.
     - [Getting the Source](#getting-the-source)
     - [Building](#building)
     - [Running Tests](#running-tests)
-      - [Other Tests](#other-tests)
     - [Installation](#installation)
     - [Usage](#usage)
-  - [Release Process](#release-process)
     - [Versioning](#versioning)
     - [Payload](#payload)
-  - [How to Get Help](#how-to-get-help)
-  - [Contributing](#contributing)
   - [Further Reading](#further-reading)
   - [License](#license)
   - [Authors](#authors)
-  - [Acknowledgments](#acknowledgments)
 
 ## About the Project
 
