@@ -16,3 +16,6 @@
 [submodule "HackerRank"]
 	path = HackerRank
 	url = https://github.com/jsueprez/HackerRank.git
+[submodule "SmartPointer"]
+	path = SmartPointer
+	url = https://github.com/jsueprez/SmartPointer.git
