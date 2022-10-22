@@ -25,3 +25,6 @@
 [submodule "src/ext/google/benchmark"]
 	path = src/ext/google/benchmark
 	url = https://github.com/google/benchmark.git
+[submodule "LeetCode"]
+	path = LeetCode
+	url = /LeetCode
