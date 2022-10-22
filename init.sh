@@ -15,7 +15,11 @@ mkdir build
 
 ## Copy template files
 cp -r ../template/* .
-cp -r ../template/.vscode/ .
+cp -r ../template/.vscode .
+
+##Change the name of the executables.
+sed -i '' -e "s/Template_executable/${PROJECT_NAME}_executable/" .vscode/launch.json
+sed -i '' -e "s/Template_tests/${PROJECT_NAME}_tests/" README.md
 
 ##Change the name of the project. sed command expect an extension argument in OsX that's why the ''
 sed -i '' -e "s/GloryPath/$PROJECT_NAME/" CMakeLists.txt
