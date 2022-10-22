@@ -16,6 +16,7 @@ mkdir build
 ## Copy template files
 cp -r ../template/* .
 cp -r ../template/.vscode .
+cp ../template/.gitignore .
 
 ##Change the name of the executables.
 sed -i '' -e "s/Template_executable/${PROJECT_NAME}_executable/" .vscode/launch.json
@@ -41,4 +42,8 @@ make -j 16
 ./${PROJECT_NAME}_tests
 
 ## First commit
-cd .. && git commit -a -m "init commit"
+cd ..
+git add *
+git add .gitignore
+git add .vscode
+git commit -m "init commit"
