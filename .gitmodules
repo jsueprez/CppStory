@@ -27,4 +27,4 @@
 	url = https://github.com/google/benchmark.git
 [submodule "LeetCode"]
 	path = LeetCode
-	url = /LeetCode
+	url = https://github.com/jsueprez/LeetCode.git
